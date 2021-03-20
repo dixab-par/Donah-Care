@@ -1,0 +1,1212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+	<link rel="stylesheet" href="Dachbord/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<title>Dashboard - Kids Tabs</title>
+
+	<link href="css/app.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.html">
+		          <span class="align-middle">Donah Care</span>
+		        </a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						Pages
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="dashboard.html"><i class="fas fa-chart-line" ></i> <span class="align-middle">Dashboard</span></a>
+					</li>
+
+					<li class="sidebar-item ">
+						<a class="sidebar-link" href=""><i class="fas fa-biking"></i> <span class="align-middle">Activities</span></a>
+					</li>
+
+					<li class="sidebar-item ">
+						<a class="sidebar-link" href=""><i class="fas fa-users"></i> <span class="align-middle">Daily Feed</span></a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href=""><i class="fas fa-comments"></i> <span class="align-middle">Staff Management</span></a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href=""><i class="fas fa-sign-out-alt"></i> <span class="align-middle">Massaging</span></a>
+					</li>
+	        </div>
+		</nav>
+
+		<div class="main main_back">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle d-flex">
+          <i class="hamburger align-self-center"></i>
+        </a>
+
+				<form class="d-none d-sm-inline-block">
+					<div class="input-group input-group-navbar">
+						<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+						<button class="btn" type="button">
+              <i class="align-middle" data-feather="search"></i>
+            </button>
+					</div>
+				</form>
+
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						<li class="nav-item dropdown">
+			              	<a href="" class="text_deco mr-2"><i class="fas fa-comment-dots fon_msiz" aria-hidden="true"></i><span class="text-dark text_fw"> Message</span></a>
+
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+				                <img src="images/1.jpg" class="avatar img-fluid rounded mr-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
+				            </a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle mr-1" data-feather="user"></i> Profile</a>
+								<a class="dropdown-item" href="#"><i class="align-middle mr-1" data-feather="pie-chart"></i> Analytics</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="pages-settings.html"><i class="align-middle mr-1" data-feather="settings"></i> Settings & Privacy</a>
+								<a class="dropdown-item" href="#"><i class="align-middle mr-1" data-feather="help-circle"></i> Help Center</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Log out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<!-- button bradcread -->
+
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<div class="row mb-2 mb-xl-3">
+						<div class="col-auto ml-auto text-right mt-n1">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb bg-transparent p-0 mt-1 mb-0">
+									<li class="breadcrumb-item"><a href="#">Home</a></li>
+									<!-- <li class="breadcrumb-item"><a href="#">Dashboards</a></li> -->
+									<li class="breadcrumb-item active" aria-current="page">Analytics</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+
+					
+					<div class="row">
+						<!-- tabs -->
+					<div class="mb-4">
+
+						<div class=" tabcar_bco">
+							<div class="tab">
+								<ul class="nav nav-tabs ul_re pos_ral" role="tablist">
+									<li class="nav-item"><a class="nav-link add_bc" href="" data-toggle="tab" role="tab"><i class="fas fa-plus-circle"></i> Add New Room</a></li>
+									<li class="nav-item"><a class="nav-link active par_padd" href="#tab-1" data-toggle="tab" role="tab"> All </a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-2" data-toggle="tab" role="tab">Room A</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-3" data-toggle="tab" role="tab">Room B</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-4" data-toggle="tab" role="tab">Room C</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-5" data-toggle="tab" role="tab">Room D</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-6" data-toggle="tab" role="tab">Room E</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-7" data-toggle="tab" role="tab">Room F</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-8" data-toggle="tab" role="tab">Room G</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-9" data-toggle="tab" role="tab">Room H</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-10" data-toggle="tab" role="tab">Room I</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-11" data-toggle="tab" role="tab">Room G</a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-12" data-toggle="tab" role="tab">Room K</a></li>
+									<li class="pos_abs">
+									<div class="row">
+										<div class="col-md-6 col-auto p-0"><a href="" class="mr-2 fo_us"><i class="fas fa-caret-square-left"></i></a>
+										</div>
+										<div class="col-md-6 col-auto p-0"><a href="" class="mr-2 fo_us"><i class="fas fa-caret-square-right"></i></a></div>
+									</div>
+									</li>
+								</ul>
+								<div class="tab-content">
+									<!-- tabs - 1  -->
+									<div class="tab-pane active" id="tab-1" role="tabpanel">
+										<!-- Filter button -->
+										<div class="row text-center mt-4 mb-3 filr_wi">
+											<div class="col-md-3">
+												<div class="row">
+													<form class="mb-3 d-sm-inline-block">
+														<div class="input-group input-group-navbar form_bos">
+															<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+															<button class="btn" type="button">
+												             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search align-middle"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+												            </button>
+														</div>
+													</form>
+												</div>
+											</div>
+
+											<div class="col-md-9">
+												<div class="row">
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tb_clo mb-3">All</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tc_clo mb-3">Pending</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="te_clo mb-3">Approved</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tb_clo mb-3">Checked In</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tc_clo mb-3">Not Checked In</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="te_clo mb-3 tab_pad">Disapproved</a></div>
+												</div>
+											</div>
+										</div>
+										<!-- Profile -->
+										<div class="row mr_auto" >
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-4">
+									              <a href="" class="add_bt mb-3"><i class="fas fa-user-plus"></i></a>
+									            </div>
+
+									            <div class="col-md-12 tab_a"></div>
+												<div class="mb-5 ">
+													<a href="" class="aprbu_2 apr_a te_clo mb-3"><i class="f_wi fas fa-plus"></i> Add New Kid</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5	 mb-2">
+									              <img src="images/1.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Alex Young</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-swimmer"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div>
+												<div class="mb-4">
+													<!-- <a class="aprbu btn_succe"><i class="fas fa-check"></i></a>
+													<a class="aprbu btn_dang"><i class="fas fa-times"></i></a> -->
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/2.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Ann Ross</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/6.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Amanda Rich</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>	
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/U2.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Samuel Chapman</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 5 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<!-- <a class="aprbu btn_succe"><i class="fas fa-check"></i></a>
+													<a class="aprbu btn_dang"><i class="fas fa-times"></i></a> -->
+													
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/11.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Ann Smith</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/4.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">John More</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/6.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Katie Lynn</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/1.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Stephen Rose	</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div> 
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/4.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Alex Young</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									    </div>
+
+									</div>
+										<!-- tabs - 2 -->
+									<div class="tab-pane" id="tab-2" role="tabpanel">
+
+										<!-- Filter button -->
+										<div class="row text-center mt-4 mb-3 filr_wi">
+											<div class="col-md-3">
+												<div class="row">
+													<form class="mb-3 d-sm-inline-block">
+														<div class="input-group input-group-navbar form_bos">
+															<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+															<button class="btn" type="button">
+												             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search align-middle"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+												            </button>
+														</div>
+													</form>
+												</div>
+											</div>
+
+											<div class="col-md-9">
+												<div class="row">
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tb_clo mb-3">All</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tc_clo mb-3">Pending</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="te_clo mb-3">Approved</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tb_clo mb-3">Checked In</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tc_clo mb-3">Not Checked In</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="te_clo mb-3 tab_pad">Disapproved</a></div>
+												</div>
+											</div>
+										</div>
+										<!-- Profile -->
+										<div class="row mr_auto">
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-4">
+									              <a href="" class="add_bt mb-3"><i class="fas fa-user-plus"></i></a>
+									            </div>
+
+									            <div class="col-md-12 tab_a"></div>
+												<div class="mb-5 ">
+													<a href="" class="aprbu_2 apr_a te_clo mb-3"><i class="f_wi fas fa-plus"></i> Add New Kid</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/2.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Ann Ross</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5	 mb-2">
+									              <img src="images/1.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Alex Young</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-swimmer"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div>
+												<div class="mb-4">
+													<!-- <a class="aprbu btn_succe"><i class="fas fa-check"></i></a>
+													<a class="aprbu btn_dang"><i class="fas fa-times"></i></a> -->
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/U2.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Samuel Chapman</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 5 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<!-- <a class="aprbu btn_succe"><i class="fas fa-check"></i></a>
+													<a class="aprbu btn_dang"><i class="fas fa-times"></i></a> -->
+													
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/6.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Amanda Rich</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>	
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/4.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">John More</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/11.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Ann Smith</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/6.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Katie Lynn</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/1.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Stephen Rose	</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div> 
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/4.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Alex Young</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									    </div>
+									</div>
+
+									<!-- tabs - 3 -->
+									<div class="tab-pane" id="tab-3" role="tabpanel">
+
+										<!-- Filter button -->
+										<div class="row text-center mt-4 mb-3 filr_wi">
+											<div class="col-md-3">
+												<div class="row">
+													<form class="mb-3 d-sm-inline-block">
+														<div class="input-group input-group-navbar form_bos">
+															<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+															<button class="btn" type="button">
+												             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search align-middle"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+												            </button>
+														</div>
+													</form>
+												</div>
+											</div>
+
+											<div class="col-md-9">
+												<div class="row">
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tb_clo mb-3">All</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tc_clo mb-3">Pending</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="te_clo mb-3">Approved</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tb_clo mb-3">Checked In</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="tc_clo mb-3">Not Checked In</a></div>
+												<div class="col-xl-2 col-md-4 tab_a"><a href="" class="te_clo mb-3 tab_pad">Disapproved</a></div>
+												</div>
+											</div>
+										</div>
+										<!-- Profile -->
+										<div class="row mr_auto">
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-4">
+									              <a href="" class="add_bt mb-3"><i class="fas fa-user-plus"></i></a>
+									            </div>
+
+									            <div class="col-md-12 tab_a"></div>
+												<div class="mb-5 ">
+													<a href="" class="aprbu_2 apr_a te_clo mb-3"><i class="f_wi fas fa-plus"></i> Add New Kid</a>
+												</div>
+									          </div>
+									        </div>
+
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/2.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Ann Ross</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/6.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Amanda Rich</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>	
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5	 mb-2">
+									              <img src="images/1.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Alex Young</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-swimmer"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div>
+												<div class="mb-4">
+													<!-- <a class="aprbu btn_succe"><i class="fas fa-check"></i></a>
+													<a class="aprbu btn_dang"><i class="fas fa-times"></i></a> -->
+												</div>
+									          </div>
+									        </div>
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/U2.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Samuel Chapman</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 5 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<!-- <a class="aprbu btn_succe"><i class="fas fa-check"></i></a>
+													<a class="aprbu btn_dang"><i class="fas fa-times"></i></a> -->
+													
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/4.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">John More</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/6.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Katie Lynn</h4>
+												<p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/11.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Ann Smith</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-4 mb-2">
+									              <img src="images/4.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Alex Young</h4>
+												<p class="che_n"><i class="fas fa-times-circle"></i> Not Checked in Yet</p>
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu btn_succe"><i class="fas fa-check"></i> Checked In</a>
+												</div>
+									          </div>
+									        </div>
+									        
+									        <div class="col-xxl-2h col-xl-3 col-md-4 col-sm-6 prod-width pos_ral">
+									          <div class="kids text-center card card_kid">
+									            <div class="mt-5 mb-2">
+									              <img src="images/1.jpg" class="img_with">
+									            </div>
+									            <h4 class="nam_k">Stephen Rose	</h4>
+												<!-- <p class="che_n"><i class="fas fa-check-circle"></i> Checked in at 3 PM</p> -->
+
+												<div class="tra_dot">
+													<a href="" class="fo_si"><i class="fas fa-ellipsis-h"></i></a>
+												</div>
+												<div class="po_block"><div class="mb-1 pos_kid">
+													<a class="tooltip_1"><i class="fas fa-cog"></i>
+													  <span class="tooltiptext">Settings</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-user-friends"></i>
+													  <span class="tooltiptext">Perants</span>
+													</a>
+													<a class="tooltip_1"><i class="fas fa-arrows-alt"></i>
+													  <span class="tooltiptext">Room Transfer </span>
+													</a>
+													<a class="tooltip_1 ac_s"><i class="fas fa-chart-line"></i>
+													  <span class="tooltiptext">Activities</span>
+													</a>
+												</div></div>
+												<div class="mb-4">
+													<a href="" class="aprbu  apr_apr">Approved</a>
+													<a href="" class="aprbu apr_des">Disapproved</a>
+												</div>
+									          </div>
+									        </div> 
+
+									    </div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<!-- form -->
+					<!-- <div class="card col-xl-4 back_focol">	
+						<div class="card-body">
+							<form>
+								<div class="text-center mb-4">
+									<img src="images/avatars/avatar-4.jpg" class="form_im_w">
+								</div>
+								<div class="row ples_z">
+									<div class="mb-3 col-md-6">
+										<input type="email" class="form-control" placeholder="First Name">
+									</div>
+									<div class="mb-3 col-md-6">
+										<input type="email" class="form-control" placeholder="Last Name">
+									</div>
+								</div>
+								<div class="mb-3">
+									<label class="form-label">MM / DD/ YYY</label>
+									<input type="email" class="form-control" placeholder="MM / DD / YYY">
+								</div>								<div class="mb-3">
+									<label class="form-label">All Esgies:</label>
+									<input type="email" class="form-control" placeholder="Email">
+								</div>
+								<div class="mb-3">
+									<label class="form-label">Emergency Contact Number:</label>
+									<input type="email" class="form-control" placeholder="Contact Number">
+								</div>
+								<div class="mb-3">
+									<label class="form-label">Emergency Contact No:</label>
+									<input type="email" class="form-control" placeholder="Contact No">
+								</div>
+								<div class="mb-3">
+									<label class="form-label">Room Name:</label>
+									<input type="email" class="form-control" placeholder="Room Name">
+								</div>
+								<div class="mb-3">
+									<label class="form-label">Addittional Note:</label>
+									<input type="password" class="form-control" placeholder="Addittional Note">
+								</div>
+
+								<div class="text-center mt-4">
+									<div class="row">
+										<div class="col-md-6">
+											<a type="submit" class="btn btn_pri">Submit</a>
+										</div>
+										<div class="col-md-6">
+											<a type="submit" class="btn btn_pri">Perant</a>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+ -->
+
+					<!-- Start Table -->
+
+
+					<!-- END Table -->
+
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>

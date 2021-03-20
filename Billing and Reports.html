@@ -1,0 +1,1208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
+	<meta name="author" content="AdminKit">
+	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
+
+	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
+	<link rel="stylesheet" href="Dachbord/css/style.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.min.css">
+
+	<title>Dashboard - Kids Tabs</title>
+
+	<link href="css/app.css" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<nav id="sidebar" class="sidebar">
+			<div class="sidebar-content js-simplebar">
+				<a class="sidebar-brand" href="index.html">
+		          <span class="align-middle">Donah Care</span>
+		        </a>
+
+				<ul class="sidebar-nav">
+					<li class="sidebar-header">
+						Pages
+					</li>
+
+					<li class="sidebar-item active">
+						<a class="sidebar-link" href="dashboard.html"><i class="fas fa-chart-line" ></i> <span class="align-middle">Dashboard</span></a>
+					</li>
+
+					<li class="sidebar-item ">
+						<a class="sidebar-link" href=""><i class="fas fa-biking"></i> <span class="align-middle">Activities</span></a>
+					</li>
+
+					<li class="sidebar-item ">
+						<a class="sidebar-link" href=""><i class="fas fa-users"></i> <span class="align-middle">Daily Feed</span></a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href=""><i class="fas fa-comments"></i> <span class="align-middle">Staff Management</span></a>
+					</li>
+
+					<li class="sidebar-item">
+						<a class="sidebar-link" href=""><i class="fas fa-sign-out-alt"></i> <span class="align-middle">Massaging</span></a>
+					</li>
+	        </div>
+		</nav>
+
+		<div class="main main_back">
+			<nav class="navbar navbar-expand navbar-light navbar-bg">
+				<a class="sidebar-toggle d-flex">
+          <i class="hamburger align-self-center"></i>
+        </a>
+
+				<form class="d-none d-sm-inline-block">
+					<div class="input-group input-group-navbar">
+						<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+						<button class="btn" type="button">
+              <i class="align-middle" data-feather="search"></i>
+            </button>
+					</div>
+				</form>
+
+				<div class="navbar-collapse collapse">
+					<ul class="navbar-nav navbar-align">
+						<li class="nav-item dropdown">
+			              	<a href="" class="text_deco mr-2"><i class="fas fa-comment-dots fon_msiz" aria-hidden="true"></i><span class="text-dark text_fw"> Message</span></a>
+
+							<a class="nav-link dropdown-toggle d-none d-sm-inline-block" href="#" data-toggle="dropdown">
+				                <img src="images/1.jpg" class="avatar img-fluid rounded mr-1" alt="Charles Hall" /> <span class="text-dark">Charles Hall</span>
+				            </a>
+							<div class="dropdown-menu dropdown-menu-right">
+								<a class="dropdown-item" href="pages-profile.html"><i class="align-middle mr-1" data-feather="user"></i> Profile</a>
+								<a class="dropdown-item" href="#"><i class="align-middle mr-1" data-feather="pie-chart"></i> Analytics</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="pages-settings.html"><i class="align-middle mr-1" data-feather="settings"></i> Settings & Privacy</a>
+								<a class="dropdown-item" href="#"><i class="align-middle mr-1" data-feather="help-circle"></i> Help Center</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Log out</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<!-- button bradcread -->
+			<main class="content">
+				<div class="container-fluid p-0">
+
+					<div class="row mb-2 mb-xl-3">
+						<div class="col-auto ml-auto text-right mt-n1">
+							<nav aria-label="breadcrumb">
+								<ol class="breadcrumb bg-transparent p-0 mt-1 mb-0">
+									<li class="breadcrumb-item"><a href="#">Home</a></li>
+									<!-- <li class="breadcrumb-item"><a href="#">Dashboards</a></li> -->
+									<li class="breadcrumb-item active" aria-current="page">Analytics</li>
+								</ol>
+							</nav>
+						</div>
+					</div>
+
+					<div class="row" >
+
+
+					<div class="mb-4">
+
+						<div class=" tabcar_bco">
+							<div class="tab">
+								<ul class="nav nav-tabs ul_re pos_ral" role="tablist">
+									
+									<li class="nav-item"><a class="nav-link active invoc par_padd" href="#tab-1" data-toggle="tab" role="tab"> Invoices <i class="fas  fa-file-invoice-dollar"></i></a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-2" data-toggle="tab" role="tab">Plans <i class="fas fa-edit"></i></a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-04" data-toggle="tab" role="tab">Deposits <i class="fas fa-hand-holding-usd"></i></a></li>
+									<li class="nav-item"><a class="nav-link" href="#tab-4" data-toggle="tab" role="tab">Settings <i class="fas fa-cog"></i></a></li>
+									
+								</ul>
+
+								<div class="tab-content">
+	
+									<!-- tabs - 1  -->	
+									<div class="tab-pane active" id="tab-1" role="tabpanel">
+										<!-- select room nad create btn -->
+										<div class="mt-4 mb-0 pb-2 card">
+											<div class="row">
+												<div class="col">
+													<div class="pr-2 pl-2 mr-2 ml-2 mt-3 select_box">
+														<select class="form_in1 form-select form_kid select_font">
+																<option>Choose a Room</option>
+																<option>Room A</option>
+																<option>Room B</option>
+																<option>Room C</option>
+																<option>Room D</option>
+																<option>Room E</option>
+																<option>Room F</option>
+														</select>
+													</div>
+												</div>
+												<div class="col mt-4 mb-4 text_e mr-4">
+													<a href="" class="creat_new">Create New Invoices</a>
+													<a href="" class="creat_new svg">Download SVG <i class="fas fa-cloud-download-alt"></i></a>
+												</div>
+											</div>
+										</div>
+
+										<div class="card mt-0 mb-0 table-responsive">									
+											<table class="table table-striped table-hover">
+												<thead>
+													<tr>
+														<th style="width: 34.5%;">Kids Name <form class="d-sm-inline-block" style="float: right;">
+															<div class="input-group input-group-navbar form_bos">
+																<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+																<button class="btn" type="button">
+													             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search align-middle"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+													            </button>
+															</div></form></th>
+														<th class="text-center">Items</th>
+														<th class="text-center">Date Sent</th>
+														<th class="text-center"><select class="sele_op">
+															<option>Date Due</option>
+															<option>10/10/2020</option>
+															<option>25/07/2020</option>
+															<option>23/09/2020</option>
+														</select></th>
+														<th class="text-center">Amount</th>
+														<th class="text-center"><select class="sele_op">
+															<option>Status</option>
+															<option>Paid</option>
+															<option>Umpaid</option>
+															<option>Pending</option>
+														</select></th>
+														<th class="text-center">Action</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<img src="images/1.jpg" class=" img_with_2 mr-2" alt=""> Alex Young
+														</td>
+														<td class="text-center">Tuition</td>
+														<td class="text-center">12/08/219</td>
+														<td class="text-center">10/6/2020</td>
+														<td class="text-center">$450.00</td>
+														<td class="text-center">Unpaid</td>
+														<td class="text-center"><div class="dropdown show">
+															<a href="#" data-toggle="dropdown" data-display="static" aria-expanded="false" class="">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+															</a>
+
+															<div class="dropdown-menu dropdown-menu-right">
+																<a class="dropdown-item" href="#">Paid</a>
+																<a class="dropdown-item" href="#">Unpaid</a>
+																<a class="dropdown-item" href="#">Panding</a>
+															</div>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<img src="images/2.jpg" class=" img_with_2 mr-2" alt=""> William
+															Harris
+														</td>
+														<td class="text-center">School</td>
+														<td class="text-center">12/12/2017</td>
+														<td class="text-center">10/6/2020</td>
+														<td class="text-center">$350.00</td>
+														<td class="text-center">Paid</td>
+														<td class="text-center"><div class="dropdown show">
+															<a href="#" data-toggle="dropdown" data-display="static" aria-expanded="false" class="">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+															</a>
+
+															<div class="dropdown-menu dropdown-menu-right">
+																<a class="dropdown-item" href="#">Paid</a>
+																<a class="dropdown-item" href="#">Unpaid</a>
+																<a class="dropdown-item" href="#">Panding</a>
+															</div>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<img src="images/3.jpg" class=" img_with_2 mr-2" alt=""> Sharon
+															Lessman
+														</td>
+														<td class="text-center">Tuition</td>
+														<td class="text-center">02/07/215</td>
+														<td class="text-center">10/6/2020</td>
+														<td class="text-center">$250.00</td>
+														<td class="text-center">Pending</td>
+														<td class="text-center"><div class="dropdown show">
+															<a href="#" data-toggle="dropdown" data-display="static" aria-expanded="false" class="">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+															</a>
+
+															<div class="dropdown-menu dropdown-menu-right">
+																<a class="dropdown-item" href="#">Paid</a>
+																<a class="dropdown-item" href="#">Unpaid</a>
+																<a class="dropdown-item" href="#">Panding</a>
+															</div>
+															</div>
+														</td>
+													</tr>
+													<tr>
+														<td>
+															<img src="images/4.jpg" class=" img_with_2 mr-2" alt=""> Christina
+															Mason
+														</td>
+														<td class="text-center">Tuition</td>
+														<td class="text-center">15/08/2018</td>
+														<td class="text-center">10/6/2020</td>
+														<td class="text-center">$390.00</td>
+														<td class="text-center">Unpaid</td>
+														<td class="text-center"><div class="dropdown show">
+															<a href="#" data-toggle="dropdown" data-display="static" aria-expanded="false" class="">
+																<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal align-middle"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+															</a>
+
+															<div class="dropdown-menu dropdown-menu-right">
+																<a class="dropdown-item" href="#">Paid</a>
+																<a class="dropdown-item" href="#">Unpaid</a>
+																<a class="dropdown-item" href="#">Panding</a>
+															</div>
+															</div>
+														</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+
+										<!-- Previous and next  -->
+										<div class="row car_1 pt-3">
+											<div class="col-sm-12 col-md-5">
+												<div class="showing_no">Showing 1 to 10 of 57 entries</div>
+											</div>
+											<div class="col-sm-12 col-md-7">
+												<div class="dataTables_paginate paging_simple_numbers" id="datatables-column-search-text-inputs_paginate"><ul class="pagination jst_end"><li class=" previous disabled" id="datatables-column-search-text-inputs_previous"><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="6" tabindex="0" class="page-link">6</a></li><li class=" next" id="datatables-column-search-text-inputs_next"><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li></ul>
+												</div>
+											</div>
+										</div>
+
+										<!-- New Invoices -->
+										<div class="card mt-4" style="display: ;">
+											<div class="card-header">
+											<div class="row">
+
+												<div class="col-md-8"style="padding: 11px 35px;">
+
+													<div class="row">
+														<div class="col">
+															<h2 class="new-h2">New Invoices</h2>
+														</div>
+														<div class="col-auto row">
+															<div class="col-auto new_d ne_acti"><a href=""><span class="farst_de_ac">1 </span>Deteils</a></div>
+															<div class="col-auto new_d "><a href=""><span class="farst_de">2 </span>Select </a></div>
+															<div class="col-auto new_d"><a href=""><span class="farst_de">3 </span>Conform</a></div>
+															
+														</div>
+													</div><hr> 
+
+ 													<!-- switch  and burron  -->
+													<div class=" row form-check form-switch mt-4 mb-2">
+														<div class="row p-0">
+															<div class="col p-0">
+																<div class="row">
+																	<div class="col-auto pl-0 new_p mr-4">
+																		<span class="form-check-label col-auto" for="flexSwitchCheckChecked">One-time Invoice </span>
+																	</div>
+																	<div class="col-auto">
+																		<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+																		<input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">Recurring Plan</label>
+																	</div>
+																	</div> 
+																</div>
+															<div class="col-auto">
+																<a href="#" class="next_btn ">Next <i class="fas fa-hand-point-right"></i></a>
+															</div>
+														</div>
+													</div>
+
+													<div class="row mt-4">
+														<div class="col-md-3">
+															<label class="form-label form_kid">Dus Date:</label>
+															<input class="form-control pl-3" tabindex="1" type="date" placeholder="Select date.." style="padding: 7px;">
+														</div>
+													</div>
+
+													<div class="mt-4"> 
+														<p class="new_p">Send Invoices <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input_1" size="4" pattern="" inputmode=""> Days Before Due Date</p>
+													</div>
+													<div class="row ples_z new_palc mb-3 por mt-4">
+														<div class="kmb_4 col-md-2 col-sm-6">
+															<label class="form-label form_kid">Item:</label>
+															<input type="dob" class="form-control br form_in" placeholder="Tuition">
+														</div>
+														<div class="kmb_4 col-md-8 col-sm-6">
+															<label class="form-label form_kid">Note:</label>
+															<input type="dob" class="form-control br form_in" placeholder="write new something">
+														</div>
+														<div class="kmb_4 col-md-2 col-sm-6">
+															<label class="form-label form_kid">Cost:</label>
+															<input type="dob" class="form-control br form_in" placeholder="$1000">
+														</div>
+														<div>
+														
+														<a href="" class="new_icpo_p"><i class="new_ico fas fa-times-circle"></i></a></div>
+													</div>
+													<a href="" class="new_icpo_m"><i class="new_ico fas fa-plus-circle"></i></a>
+													<div class="new_totle">Total:<span>$1000</span></div>
+
+												</div>
+												<div class="col-md-4"></div>
+												
+											</div>
+											</div>
+										</div>
+
+										<!-- Select Kid -->
+										<div class="card mt-4" style="display: ;">
+											<div class="card-header">
+											<div class="row">
+
+												<div class="col-md-8" style="padding: 11px 35px;">
+
+													<div class="row">
+														<div class="col">
+															<h2 class="new-h2">Select Kids</h2>
+														</div>
+														<div class="col-auto row">
+															<div class="col-auto new_d"><a href=""><span class="farst_de">1 </span>Deteils</a></div>
+															<div class="col-auto new_d ne_acti"><a href=""><span class="farst_de_ac">2 </span>Select </a></div>
+															<div class="col-auto new_d"><a href=""><span class="farst_de">3 </span>Conform</a></div>
+															
+														</div>
+													</div><hr> 
+
+ 													<!-- select room and serch  -->
+													<div class=" row form-check pl-4 form-switch mt-4 mb-2">
+														<div class="row p-0">
+															<div class="col pr-2 pl-2 mr-2  select_box">
+																<select class="form_in1 form-select form_kid select_font">
+																		<option>Choose a Room</option>
+																		<option>Room A</option>
+																		<option>Room B</option>
+																		<option>Room C</option>
+																		<option>Room D</option>
+																		<option>Room E</option>
+																		<option>Room F</option>
+																</select>
+															</div>
+															<div class="col-auto">
+																<div class="">
+																	<form class="d-sm-inline-block" style="float: right;">
+																		<div class="input-group input-group-navbar b_s form_bos">
+																			<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+																			<button class="btn" type="button">
+																             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search align-middle"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+																            </button>
+																		</div>
+																	</form>
+																</div>
+															</div>
+															<div class="col-auto">
+																<a href="#" class="next_btn ">Next <i class="fas fa-hand-point-right"></i></a>
+															</div>
+														</div>
+													</div>
+
+													
+													
+													<div class="row ples_z mb-3 por" style="margin-top: 32px;">
+														<div class="col-md-8">
+														<table class="table table-striped table-hover" style="border: 2px solid #dee2e6;">
+															<thead>
+																<tr>
+																	<th>Displaying 5 kids <form class="d-sm-inline-block" style="float: right;">
+																	
+																</form></th>
+																	<th class="text-right">Select All <input class="ml-1 fotm_sele form-check-input" type="radio" value="option2" name="radios-example">
+																</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>
+																		<img src="images/1.jpg" class="img_with_3 mr-2" alt=""> Alex Young
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<img src="images/2.jpg" class="img_with_3 mr-2" alt=""> William
+																		Harris
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<img src="images/3.jpg" class="img_with_3 mr-2" alt=""> Sharon
+																		Lessman
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<img src="images/4.jpg" class="img_with_3 mr-2" alt=""> Christina
+																		Mason
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+															</tbody>
+														</table>
+														</div>
+														<div class="col-md-4">
+															<table class="mt-0 table table-striped table-hover">
+																<tbody style="border: 2px solid #dee2e6;">
+																	<tr>
+																		<th colspan="2" class="text-center">Invoice Details</th>
+																	</tr>
+																	<tr>
+																		<td class="text-left ">Tuition</td>
+																		<td class="text-right ">$1000.00</td>
+																	</tr>
+																	<tr>
+																		<td class="text-left">Tootle :</td>
+																		<td class="text-right"><strong>$1000.00</strong></td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													
+												</div>
+												<div class="col-md-4"></div>
+												
+											</div>
+											</div>
+										</div>
+										
+										<!-- Confirm & Send-->
+										<div class="card mt-4">
+											<div class="card-header">
+											<div class="row">
+
+												<div class="col-md-8" style="padding: 11px 35px;">
+
+													<div class="row">
+														<div class="col">
+															<h2 class="new-h2">Confirm &amp; Send</h2>
+														</div>
+														<div class="col-auto row">
+															<div class="col-auto new_d"><a href=""><span class="farst_de">1 </span>Deteils</a></div>
+															<div class="col-auto new_d"><a href=""><span class="farst_de">2</span>Select </a></div>
+															<div class="col-auto new_d ne_acti"><a href=""><span class="farst_de_ac">3 </span>Conform</a></div>
+														</div>
+													</div><hr> 
+
+													<!-- select room and serch  -->
+
+													<div class="row mb-">
+														<div class="col-md-9">
+															<div class="row">
+																<div class="col-md-12">
+																	<h3>Note:</h3>
+																	<p class="pr-4">Confirm the summary page where the user will confirm list of items, notes, sub amount, total amount, list of students to beinvoiced etc..<br>
+																	</p>
+																</div>
+																<div class="col-md-12">
+																	<table class="table table-sm">
+															<thead>
+																<tr>
+																	<th>Item:</th>
+																	<th class="text-right">Sub Amount:</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Tuition:</td>
+																	<td class="text-right">$150.00</td>
+																</tr>
+																<tr>
+																	<td>School:</td>
+																	<td class="text-right">$125.00</td>
+																</tr>
+																<tr class="totle">
+																	<td>Totle:</td>
+																	<td class="text-right"><strong>$275.00</strong></td>
+																</tr>
+																
+															</tbody>
+														</table>
+																</div>
+															</div>
+														</div>
+														
+
+														<div class="col-md-3 mt-2">
+															<div class="row">
+																<div class="text-right pr-4">
+																<a href="#" class="next_btn ">Create Plan</a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									</div>
+
+										<!-- tabs - 2 -->
+									<div class="tab-pane" id="tab-2" role="tabpanel">
+
+										<!-- select room nad create btn -->
+										<div class="mt-4 mb-0 pb-2 card">
+											<div class="row">
+												<div class="col">
+													<div class="pr-2 pl-2 mr-2 ml-2 mt-3 select_box">
+														<select class="form_in1 form-select form_kid select_font">
+																<option>Choose a Room</option>
+																<option>Room A</option>
+																<option>Room B</option>
+																<option>Room C</option>
+																<option>Room D</option>
+																<option>Room E</option>
+																<option>Room F</option>
+														</select>
+													</div>
+												</div>
+												<div class="col mt-4 mb-4 text_e mr-4">
+													<a href="" class="creat_new">Create New Plan</a>
+													<a href="" class="creat_new svg">Download SVG <i class="fas fa-cloud-download-alt"></i></a>
+												</div>
+												
+											</div>
+										</div>
+
+										<div class="card mb-0 table-responsive">
+											<table class="table table-striped table-hover">
+												<thead>
+													<tr>
+														<th style="width: 37.5%;">Kids Name <form class="d-sm-inline-block" style="float: right;">
+														<div class="input-group input-group-navbar form_bos">
+															<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+															<button class="btn" type="button">
+												             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search align-middle"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+												            </button>
+														</div>
+													</form></th>
+														<th class="text-center">Kids of plan</th>
+														<th class="text-center">Nex Date Due</th>
+														<th class="text-center">Recurring Amount</th>
+														<th class="text-center">Cancel Option</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>
+															<img src="images/1.jpg" class=" img_with_2 mr-2" alt=""> Alex Young
+														</td>
+														<td cal>Active</td>
+														<td cal>12/08/219</td>
+														<td cal>$450.00</td>
+														<td cal><a href="" class="aprbu apr_ho apr_apr">Cancel</a></td>
+													</tr>
+													<tr>
+														<td cal>
+															<img src="images/2.jpg" class=" img_with_2 mr-2" alt=""> William
+															Harris
+														</td>
+														<td cal>School</td>
+														<td cal>12/12/2017</td>
+														<td cal>$350.00</td>
+														<td cal><a href="" class="aprbu apr_ho apr_apr">Cancel</a></td>
+													</tr>
+													<tr>
+														<td cal>
+															<img src="images/3.jpg" class=" img_with_2 mr-2" alt=""> Sharon
+															Lessman
+														</td>
+														<td cal>Active</td>
+														<td cal>02/07/215</td>
+														<td cal>$250.00</td>
+														<td cal><a href="" class="aprbu apr_ho apr_apr">Cancel</a></td>
+													</tr>
+													<tr>
+														<td cal>
+															<img src="images/4.jpg" class=" img_with_2 mr-2" alt=""> Christina
+															Mason
+														</td>
+														<td cal>Tuition</td>
+														<td cal>15/08/2018</td>
+														<td cal>$390.00</td>
+														<td cal><a href="" class="aprbu apr_ho apr_apr">Cancel</a></td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+										
+										<!-- Previous and next  -->
+										<div class="row car_1 pt-3">
+											<div class="col-sm-12 col-md-5">
+												<div class="showing_no">Showing 1 to 10 of 57 entries</div>
+											</div>
+											<div class="col-sm-12 col-md-7">
+												<div class="dataTables_paginate paging_simple_numbers" id="datatables-column-search-text-inputs_paginate"><ul class="pagination jst_end"><li class=" previous disabled" id="datatables-column-search-text-inputs_previous"><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="0" tabindex="0" class="page-link">Previous</a></li><li class="paginate_button page-item active"><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="1" tabindex="0" class="page-link">1</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="2" tabindex="0" class="page-link">2</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="3" tabindex="0" class="page-link">3</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="4" tabindex="0" class="page-link">4</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="5" tabindex="0" class="page-link">5</a></li><li class=" "><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="6" tabindex="0" class="page-link">6</a></li><li class=" next" id="datatables-column-search-text-inputs_next"><a href="#" aria-controls="datatables-column-search-text-inputs" data-dt-idx="7" tabindex="0" class="page-link">Next</a></li></ul>
+												</div>
+											</div>
+										</div>
+							
+										<!-- New Palne -->
+										<div class="card mt-4" style="display: ;">
+											<div class="card-header">
+											<div class="row">
+
+												<div class="col-md-8"style="padding: 11px 35px;">
+													
+													<div class="row">
+														<div class="col">
+															<h2 class="new-h2">New Paln</h2>
+														</div>
+														<div class="col-auto row">
+															<div class="col-auto new_d ne_acti"><a href=""><span class="farst_de_ac">1 </span>Deteils</a></div>
+															<div class="col-auto new_d "><a href=""><span class="farst_de">2 </span>Select </a></div>
+															<div class="col-auto new_d"><a href=""><span class="farst_de">3 </span>Conform</a></div>
+															
+														</div>
+													</div><hr> 
+
+ 													<!-- switch  and burron  -->
+													<div class=" row form-check form-switch mt-4 mb-2">
+														<div class="row p-0">
+															<div class="col p-0">
+																<div class="row">
+																	<div class="col-auto pl-0 new_p mr-4">
+																		<span class="form-check-label col-auto" for="flexSwitchCheckChecked">One-time Invoice </span>
+																	</div>
+																	<div class="col-auto">
+																		<input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked="">
+																		<label class="form-check-label" for="flexSwitchCheckChecked">Recurring Plan</label>
+																	</div>
+																	</div> 
+																</div>
+															<div class="col-auto">
+																<a href="#" class="next_btn ">Next <i class="fas fa-hand-point-right"></i></a>
+															</div>
+														</div>
+													</div>
+
+													<div class="row mt-4">
+														<div class="col-md-3">
+															<select class="form_in1 pl-3 form-select form_kid col-auto">
+																<option>Weekly</option>
+																<option>Monthly</option>
+																<option>Yearly</option>
+															</select>
+														</div>
+														<div class="col-md-3">
+															<select class="form_in1 pl-3 form-select form_kid">
+																<option>Last Day</option>
+																<option>11/05/2020</option>
+																<option>25/07/2018</option>
+																<option>08/05/2017</option>
+																
+															</select>
+														</div>
+														<div class="col-md-3">
+															<input class="form-control pl-3" tabindex="1" type="date" placeholder="Select date.." style="padding: 7px;">
+														</div>
+													</div>
+
+													<div class="mt-4"> 
+														<p class="new_p">Send Invoices <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input_1" size="4" pattern="" inputmode=""> Days Before Due Date</p>
+													</div>
+													<div class="row ples_z new_palc mb-3 por mt-4">
+														<div class="kmb_4 col-md-2 col-sm-6">
+															<label class="form-label form_kid">Item:</label>
+															<input type="dob" class="form-control br form_in" placeholder="Tuition">
+														</div>
+														<div class="kmb_4 col-md-8 col-sm-6">
+															<label class="form-label form_kid">Note:</label>
+															<input type="dob" class="form-control br form_in" placeholder="write new something">
+														</div>
+														<div class="kmb_4 col-md-2 col-sm-6">
+															<label class="form-label form_kid">Cost:</label>
+															<input type="dob" class="form-control br form_in" placeholder="$1000">
+														</div>
+														<div>
+														
+														<a href="" class="new_icpo_p"><i class="new_ico fas fa-times-circle"></i></a></div>
+													</div>
+													<a href="" class="new_icpo_m"><i class="new_ico fas fa-plus-circle"></i></a>
+													<div class="new_totle">Total:<span>$1000</span></div>
+
+												</div>
+												<div class="col-md-4"></div>
+												
+											</div>
+											</div>
+										</div>
+
+										<!-- Select Kid -->
+										<div class="card mt-4" style="display: ;">
+											<div class="card-header">
+											<div class="row">
+
+												<div class="col-md-8"style="padding: 11px 35px;">
+
+													<div class="row">
+														<div class="col">
+															<h2 class="new-h2">Select Kids</h2>
+														</div>
+														<div class="col-auto row">
+															<div class="col-auto new_d"><a href=""><span class="farst_de">1 </span>Deteils</a></div>
+															<div class="col-auto new_d ne_acti"><a href=""><span class="farst_de_ac">2 </span>Select </a></div>
+															<div class="col-auto new_d"><a href=""><span class="farst_de">3 </span>Conform</a></div>
+															
+														</div>
+													</div><hr> 
+
+ 													<!-- select room and serch  -->
+													<div class=" row form-check pl-4 form-switch mt-4 mb-2">
+														<div class="row p-0">
+															<div class="col pr-2 pl-2 mr-2  select_box">
+																<select class="form_in1 form-select form_kid select_font">
+																		<option>Choose a Room</option>
+																		<option>Room A</option>
+																		<option>Room B</option>
+																		<option>Room C</option>
+																		<option>Room D</option>
+																		<option>Room E</option>
+																		<option>Room F</option>
+																</select>
+															</div>
+															<div class="col-auto">
+																<div class="">
+																	<form class="d-sm-inline-block" style="float: right;">
+																		<div class="input-group input-group-navbar b_s form_bos">
+																			<input type="text" class="form-control" placeholder="Search…" aria-label="Search">
+																			<button class="btn" type="button">
+																             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search align-middle"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+																            </button>
+																		</div>
+																	</form>
+																</div>
+															</div>
+															<div class="col-auto">
+																<a href="#" class="next_btn ">Next <i class="fas fa-hand-point-right"></i></a>
+															</div>
+														</div>
+													</div>
+
+													
+													
+													<div class="row ples_z mb-3 por" style="margin-top: 32px;">
+														<div class="col-md-8">
+														<table class="table table-striped table-hover" style="border: 2px solid #dee2e6;">
+															<thead >
+																<tr>
+																	<th>Displaying 5 kids <form class="d-sm-inline-block" style="float: right;">
+																	
+																</form></th>
+																	<th class="text-right">Select All <input class="ml-1 fotm_sele form-check-input" type="radio" value="option2" name="radios-example">
+																</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>
+																		<img src="images/1.jpg" class="img_with_3 mr-2" alt=""> Alex Young
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<img src="images/2.jpg" class="img_with_3 mr-2" alt=""> William
+																		Harris
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<img src="images/3.jpg" class="img_with_3 mr-2" alt=""> Sharon
+																		Lessman
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+																<tr>
+																	<td>
+																		<img src="images/4.jpg" class="img_with_3 mr-2" alt=""> Christina
+																		Mason
+																	</td>
+																	<td class="text-right pr-5"><input type="checkbox" class="form-check-input"></td>
+																</tr>
+															</tbody>
+														</table>
+														</div>
+														<div class="col-md-4">
+															<table class="mt-0 table table-striped table-hover">
+																<tbody style="border: 2px solid #dee2e6;">
+																	<tr>
+																		<th colspan="2" class="text-center">Invoice Details</th>
+																	</tr>
+																	<tr>
+																		<td class="text-left ">Tuition</td>
+																		<td class="text-right ">$1000.00</td>
+																	</tr>
+																	<tr>
+																		<td class="text-left">Tootle :</td>
+																		<td class="text-right"><strong>$1000.00</strong></td>
+																	</tr>
+																</tbody>
+															</table>
+														</div>
+													</div>
+													
+												</div>
+												<div class="col-md-4"></div>
+												
+											</div>
+											</div>
+										</div>
+
+										<!-- Confirm & Send-->
+										<div class="card mt-4">
+											<div class="card-header">
+											<div class="row">
+
+												<div class="col-md-8"style="padding: 11px 35px;">
+
+													<div class="row">
+														<div class="col">
+															<h2 class="new-h2">Confirm & Send</h2>
+														</div>
+														<div class="col-auto row">
+															<div class="col-auto new_d"><a href=""><span class="farst_de">1 </span>Deteils</a></div>
+															<div class="col-auto new_d"><a href=""><span class="farst_de">2</span>Select </a></div>
+															<div class="col-auto new_d ne_acti"><a href=""><span class="farst_de_ac">3 </span>Conform</a></div>
+														</div>
+													</div><hr> 
+
+													<!-- select room and serch  -->
+
+													<div class="row mb-">
+														<div class="col-md-9">
+															<div class="row">
+																<div class="col-md-12">
+																	<h3>Note:</h3>
+																	<p class="pr-4">Confirm the summary page where the user will confirm list of items, notes, sub amount, total amount, list of students to beinvoiced etc..<br>
+																	</p>
+																</div>
+																<div class="col-md-12">
+																	<table class="table table-sm">
+															<thead>
+																<tr>
+																	<th>Item:</th>
+																	<th class="text-right">Sub Amount:</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td>Tuition:</td>
+																	<td class="text-right">$150.00</td>
+																</tr>
+																<tr>
+																	<td>School:</td>
+																	<td class="text-right">$125.00</td>
+																</tr>
+																<tr class="totle">
+																	<td>Totle:</td>
+																	<td class="text-right"><strong>$275.00</strong></td>
+																</tr>
+																
+															</tbody>
+														</table>
+																</div>
+															</div>
+														</div>
+														
+
+														<div class="col-md-3 mt-2">
+															<div class="row">
+																<div class="text-right pr-4">
+																<a href="#" class="next_btn ">Create Plan</a></div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+									</div>
+
+										<!-- tabs - 04 -->
+									<div class="tab-pane" id="tab-04" role="tabpanel">
+									
+										<div class="mt-4 mb-0 pb-2 card">
+											<div class="row card-body">
+												<div class="col-md-6">
+													<div class="kmb_4">
+														<label class="form-label form_kid">First & Last Name:</label>
+														<input type="email" class="form-control form_in" placeholder="First & Last Name">
+													</div>
+													<div class="kmb_4">
+														<label class="form-label form_kid">Enter Address:</label>
+														<input type="email" class="form-control form_in" placeholder="Enter Your Email Id">
+													</div>
+													<div class="kmb_4">
+														<label class="form-label form_kid">Country</label>
+														<input type="email" class="form-control form_in" placeholder="Email Id">
+													</div>
+													<div class="row ples_z">
+														<div class="kmb_4 col-md-6 col-sm-6">
+															<label class="form-label form_kid">Date of Birth:</label>
+															<input type="dob" class="form-control form_in" placeholder="Date of Birth">
+														</div>
+														<div class="kmb_4 col-md-6 col-sm-6">
+															<label class="form-label form_kid">Choose a Room:</label>
+															<select class="form_in1 form-select form_kid">
+																<option>Choose a Room</option>
+																<option>Room A</option>
+																<option>Room B</option>
+																<option>Room C</option>
+																<option>Room D</option>
+																<option>Room E</option>
+																<option>Room F</option>
+															</select>
+															<!-- <input type="room_no" class="form-control form_in" placeholder="Room Name"> -->
+														</div>
+													</div>
+												</div>
+
+												<div class="col-md-6 mt-4 mb-4">
+													<div class="kmb_4">
+														<label class="form-label form_kid"><strong>Payment Method</strong></label>
+														<input type="email" class="form-control form_in" placeholder="First & Last Name">
+													</div>
+												</div>
+												
+											</div>
+										</div>
+
+									</div>
+									
+
+									<!-- tabs - 4 -->
+									<div class="tab-pane" id="tab-4" role="tabpanel">
+									
+										<div class="mt-4 mb-0 pb-2 card">
+											<div class="row card-body">	
+												<div class="container">
+  
+
+
+<div class="row">
+	<aside class="col-sm-6">
+<p>Payment form1</p>
+
+<article class="card">
+<div class="card-body p-5">
+
+
+<div class="panel panel-default credit-card-box">
+	<div class="panel-heading display-table">
+		<div class="row display-tr">
+		<h3 class="panel-title display-td" style="
+		    width: 65%;
+		">Payment Details</h3>
+		<img class="img-responsive pull-right" src="http://i76.imgup.net/accepted_c22e0.png" style="
+		">
+		</div>                    
+	</div>
+	<div class="panel-body">
+		<form role="form" id="payment-form">
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+				<label class="form-label mt-3 form_kid">CARD NUMBER:</label>
+				<div class="input-group">
+					<input type="tel" class="form-control" name="cardNumber" placeholder="Valid Card Number" autocomplete="cc-number" required="" autofocus="">
+					<span class="input-group-addon"><i class="fa fa-credit-card" style="
+					    font-size: 22px;
+					"></i></span>
+				</div>
+				</div>                            
+			</div>
+		</div>
+		<div class="row">
+			<div class="row ples_z">
+				<div class="mb-3 col-md-6 col-sm-6">
+					<label class="form-label form_kid">EXPIRATION DATE:</label>
+					<input class="form-control pl-3" tabindex="1" type="date" placeholder="Select date.." style="padding: 7px;">
+				</div>
+				<div class="mb-3 col-md-6 col-sm-6">
+					<label class="form-label form_kid">CSV CODE:</label>
+					<input type="dob" class="form-control form_in" placeholder="CSV">
+				</div>
+				
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<div class="form-group">
+				<label for="couponCode"></label>				
+				<label class="form-label form_kid">COUPON CODE:</label>
+				<input type="dob" class="form-control form_in" placeholder="COUPON CODE">
+				</div>
+			</div>                        
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+			<button class="btn btn-success mt-2 btn-lg btn-block" type="submit">Start Subscription</button>
+			</div>
+		</div>
+		<div class="row" style="display:none;">
+			<div class="col-xs-12">
+			<p class="payment-errors"></p>
+			</div>
+		</div>
+		</form>
+	</div>
+</div> 
+
+</div> 
+</article> <!-- card.// -->
+
+
+	</aside>
+	<aside class="col-sm-6">
+<p>Paymetn form2</p>
+
+<article class="card">
+<div class="card-body p-5">
+
+<ul class="nav bg-light nav-pills rounded nav-fill mb-3" role="tablist">
+	<li class="nav-item">
+		<a class="nav-link active" data-toggle="pill" href="#nav-tab-card">
+		<i class="fa fa-credit-card"></i> Credit Card</a></li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="pill" href="#nav-tab-paypal">
+		<i class="fab fa-paypal"></i>  Paypal</a></li>
+	<li class="nav-item">
+		<a class="nav-link" data-toggle="pill" href="#nav-tab-bank">
+		<i class="fa fa-university"></i>  Bank Transfer</a></li>
+</ul>
+
+<div class="tab-content">
+<div class="tab-pane fade show active" id="nav-tab-card">
+	<p class="alert alert-success">Some text success or error</p>
+	<form role="form">
+	<div class="form-group">
+		<label for="username">Full name (on the card)</label>
+		<input type="text" class="form-control" name="username" placeholder="" required="">
+	</div> <!-- form-group.// -->
+
+	<div class="form-group">
+		<label for="cardNumber">Card number</label>
+		<div class="input-group">
+			<input type="text" class="form-control" name="cardNumber" placeholder="">
+			<div class="input-group-append">
+				<span class="input-group-text text-muted">
+					<i class="fab fa-cc-visa"></i> &nbsp; <i class="fab fa-cc-amex"></i> &nbsp; 
+					<i class="fab fa-cc-mastercard"></i> 
+				</span>
+			</div>
+		</div>
+	</div> <!-- form-group.// -->
+
+	<div class="row">
+	    <div class="col-sm-8">
+	        <div class="form-group">
+	            <label><span class="hidden-xs">Expiration</span> </label>
+	        	<div class="input-group">
+	        		<input type="number" class="form-control" placeholder="MM" name="">
+		            <input type="number" class="form-control" placeholder="YY" name="">
+	        	</div>
+	        </div>
+	    </div>
+	    <div class="col-sm-4">
+	        <div class="form-group">
+	            <label data-toggle="tooltip" title="" data-original-title="3 digits code on back side of the card">CVV <i class="fa fa-question-circle"></i></label>
+	            <input type="number" class="form-control" required="">
+	        </div> <!-- form-group.// -->
+	    </div>
+	</div> <!-- row.// -->
+	<button class="subscribe btn btn-primary btn-block" type="button"> Confirm  </button>
+	</form>
+</div> <!-- tab-pane.// -->
+<div class="tab-pane fade" id="nav-tab-paypal">
+<p>Paypal is easiest way to pay online</p>
+<p>
+<button type="button" class="btn btn-primary"> <i class="fab fa-paypal"></i> Log in my Paypal </button>
+</p>
+<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p>
+</div>
+<div class="tab-pane fade" id="nav-tab-bank">
+<p>Bank accaunt details</p>
+<dl class="param">
+  <dt>BANK: </dt>
+  <dd> THE WORLD BANK</dd>
+</dl>
+<dl class="param">
+  <dt>Accaunt number: </dt>
+  <dd> 12345678912345</dd>
+</dl>
+<dl class="param">
+  <dt>IBAN: </dt>
+  <dd> 123456789</dd>
+</dl>
+<p><strong>Note:</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. </p>
+</div> <!-- tab-pane.// -->
+</div> <!-- tab-content .// -->
+
+</div> <!-- card-body.// -->
+</article> <!-- card.// -->
+
+
+	</aside> <!-- col.// -->
+</div> <!-- row.// -->
+
+</div>
+												
+											</div>
+										</div>
+
+									</div>
+									
+
+									<!-- tabs - 3 -->
+								
+
+
+								</div>
+							</div>
+						</div>
+
+					</div>	
+
+
+
+						<!-- section 2 -->
+					<!-- <div class="col-xl-9 col-md-8" >
+						</div>-->
+
+					</div>
+
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+
+</body>
+
+</html>
